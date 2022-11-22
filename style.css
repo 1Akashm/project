@@ -1,0 +1,501 @@
+*{
+
+	padding: 0;
+	margin: 0;
+}
+
+body
+{
+	/*background-color: #FFF89C;*/
+}
+
+header
+{
+	/*background-color: #6C4AB6;*/
+	background-color: #B9005B;
+
+	/*height: 500px;*/
+}
+
+
+.gg{
+	position: relative;
+	height: 150px;
+	width: 12%;
+	margin-left: 46%;
+	/*background-color: #6C4AB8;*/
+	/*box-shadow: 1px 1px 20px rgba(0,0,0,0.5) ;	*/
+	transform: translate3d(10px, 0px, 0px);
+	transform: scale3d(1.0, 1.0, 1.0);
+	/*background-color: red;*/
+}
+
+.head
+{
+	/*background-color: #8D72E1;*/
+	background-color: #E0144C;
+	height: 50px;
+	box-shadow: 1px 1px 20px rgba(0,0,0,0.5) ;
+}
+
+.head ul
+{
+	display: flex;
+	position: relative;
+	top: 15px;
+	left: 5%;
+	width: 50%;
+
+	padding: 5px;
+}	
+
+div ul li
+{	
+	
+		/*flex: 1;*/
+		/*margin-left: 150px;*/
+		position: relative;
+		left: 500px;
+		top: -5px;
+		list-style: none;
+
+}
+
+div ul li a
+{	
+	/*border: 3px solid transparent;*/
+	color: black;
+	text-decoration: none;
+	margin-left: 50px;
+	font-family: 'Oswald',sans-serif;
+	font-size: 15px;
+	/*padding: 10px;*/
+}
+
+div ul li a:hover
+{
+	position: relative;
+	/*left: 500px;*/
+	/*top: -5px;*/
+	transition: .5s;
+	/*padding: 5px;*/
+	color: white;/*#7DE5ED*/;
+	border-bottom: 1px solid  white;/*#7DE5ED*/;
+	border-radius: 5px;
+	font-size: 18px;
+	background-color:#E0144C ;
+	font-family: 'Nothing You Could Do',sans-serif;
+	/*padding-bottom: 3px;*/
+}
+
+
+
+nav p a
+{
+	list-style: none;
+	text-decoration: none;
+	color: white;
+}
+
+.necklace
+{
+	background-color: /*#B1B2FF #6C4AB6*/ black;
+	height: 600px;
+	/*position: relative;*/
+}
+
+.necklace p.up
+{
+	color: white;
+	position: absolute;
+	left: 50%;
+	margin-top: 5%;
+	font-size: 120px;
+	opacity: 1;
+
+}
+
+.necklace p.down
+{
+	color: black;
+	width: 50%;
+	position: absolute;
+	left: 40%;
+	margin-top: 15%;
+	font-size: 50px;
+	opacity: .8;
+}
+
+.img_gallery
+{
+	position: relative;
+    top: -97%;
+    left: 26%;
+	width: 73.7%;
+	height: 99.9%;
+
+}
+
+.img_gallery:hover
+{
+	transition: .5s;
+	
+}
+.img_3 
+{	
+	width: 25%;
+}
+
+
+div div.img_3 img
+{
+
+	transform: scaleY(1.04);
+	width:100%;
+	/*margin-left: 5px;*/
+	height:96.3%;
+	/*height: 92.5%;*/
+	margin-top: 3%;
+	box-shadow: 0px 0px 20px rgb(200, 204, 200);
+
+	border-image-repeat: round;
+	border-image-slice: 20 25;
+	/*border: 2px solid black;*/
+}
+
+.img_gallery img
+{
+	margin-top: 0.5%;
+	width:33%;
+	/*margin-left: 1%;*/
+	height:45%;
+	position: relative;
+	top: 1.3%;
+	opacity: 0;
+	box-shadow: 0px 0px 15px rgb(200, 204, 200);
+}
+
+.img_gallery img:hover
+{
+	/*background-color: #7600bc;*/
+	opacity: 1;
+	transform: scaleY(1.04);
+	transition: .5s;
+	box-shadow: 1px 1px 20px rgba(0,0,0,01) ;
+	border-radius: 50%;
+	
+}
+
+.Earrings
+{
+	background-color: orange;
+	height: 600px;
+}
+
+.necklace p.up
+{
+	color: white;
+	position: absolute;
+	left: 50%;
+	margin-top: 5%;
+	font-size: 120px;
+	opacity: 1;
+
+}
+
+.necklace p.down
+{
+	color: black;
+	width: 50%;
+	position: absolute;
+	left: 40%;
+	margin-top: 15%;
+	font-size: 50px;
+	opacity: .8;
+}
+
+.img_gallery1
+{
+	position: relative;
+    top: -97%;
+    left: 0.6%;
+	width: 73.7%;
+	height: 99.9%;
+
+}
+
+.img_gallery1:hover
+{
+	transition: .5s;
+	
+}
+.earside
+{	
+	width: 25%;
+}
+
+
+div div.earside img
+{
+	position: relative;
+	left: 300%;
+	transform: scaleY(1.04);
+	width:100%;
+	/*margin-left: 5px;*/
+	height:96.3%;
+	/*height: 92.5%;*/
+	margin-top: 3%;
+	box-shadow: 0px 0px 20px rgb(200, 204, 200);
+
+	border-image-repeat: round;
+	border-image-slice: 20 25;
+	/*border: 2px solid black;*/
+}
+
+.img_gallery1 img
+{
+	margin-top: 0.5%;
+	width:33%;
+	/*margin-left: 1%;*/
+	height:45%;
+	position: relative;
+	top: 1.3%;
+	opacity: 0;
+	box-shadow: 0px 0px 15px rgb(200, 204, 200);
+}
+
+.img_gallery1 img:hover
+{
+	/*background-color: #7600bc;*/
+	opacity: 1;
+	transform: scaleY(1.04);
+	transition: .5s;
+	box-shadow: 1px 1px 20px rgba(0,0,0,01) ;
+	border-radius: 50%;
+	
+}
+.ear
+{
+	width: 75%;
+	height: 79%;
+	position: absolute;
+	left: 0%;
+	/*left: 50%;*/
+	/*opacity: .7;*/
+	/*z-index: -1;*/
+}
+
+
+.Parure
+{
+	background-color: green;
+	height: 600px;
+}
+
+footer
+{
+	background-color: violet;
+
+}
+
+.back
+{
+	background-color: #6C4AB6;
+}
+
+.back img
+{
+	width: 100%;
+	height: 1500px;
+}
+
+.jewel
+{
+	opacity: .65;
+	width: 67%;
+	box-shadow: 1px 1px 20px rgba(0,0,0,0.5) ;	
+	margin-left: 0;
+	position: absolute;
+	left: 50%;
+	top: -800px;
+
+	height: 500px;
+}
+
+.text{
+	position: absolute;
+	/*@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');*/
+	/*font-family: 'Ruslan Display',cursive;*/
+	font-family: 'Monoton',cursive;
+	font-style: bold;
+	color: white;
+	font-variant:small-caps;
+	font-size: 100px;
+	top: 30%;
+	left: 50%;
+}
+
+.sub-text
+{
+	position: absolute;
+	/*font-family: 'Michroma', monospace ;*/
+	font-family: 'Gruppo', cursive;
+	font-weight: bolder;
+	color: white;
+	margin-left: 7%;
+	font-variant:small-caps;
+	font-size: 60px;
+	padding: 10px;
+	top: 45%;
+	left: 50%;
+}
+
+.description
+{
+	position: absolute;
+	font-family: 'Nothing You Could Do',sans-serif;
+	/*font-family: 'Rouge Script', cursive;*/
+	/*font-style: bold;*/
+	color: white;
+	margin-left: 7%;
+	/*font-variant:small-caps;*/
+	font-size: 30px;
+	padding: 10px;
+	top: 60%;
+	left: 50%;
+}
+
+
+.neck
+{
+	width: 75%;
+	height: 79%;
+	position: absolute;
+	left: 25%;
+	/*left: 50%;*/
+	/*opacity: .7;*/
+	/*z-index: -1;*/
+}
+
+footer a img
+{
+    position: relative;
+    top: 10%;
+    left: 30%;
+    height: 30%;
+    width: 5%;
+    cursor: pointer
+}
+
+footer .first
+{
+    position: relative;
+    left: 31.5%;
+    top: -11%;
+    font-family: 'Anton', sans-serif;
+    font-variant: small-caps;
+    /background-color: white;/
+}
+
+footer .second
+{
+    position: relative;
+    left: 27.5%;
+    top: -4%;
+    font-family: 'Anton', sans-serif;
+    font-variant: small-caps;
+    /background-color: white;/
+}
+
+footer .third
+{
+    position: relative;
+    left: 25.9%;
+    top: 4%;
+    font-family: 'Anton', sans-serif;
+    font-variant: small-caps;
+    /background-color: white;/
+}
+
+footer .phone
+{
+ /*   height: 32%;
+    width: 4%;
+    /background-color: black;/
+    position: relative;
+    left: 45%;
+    top: 10%;
+    cursor: pointer;*/
+     height: 30%;
+    width: 5%;
+   	position: relative;
+    left: 45%;
+    top: 10%;
+    cursor: pointer;
+}
+
+footer .Contact
+{
+    width: 20%;
+    position: relative;
+    left: 69%;
+    top: -18%;
+    font-variant: small-caps;
+    font-family: 'Anton', sans-serif;
+}
+
+footer .last_img
+{
+    position: relative;
+    left: 47%;
+    top: -45%;
+    height: 50%;
+    cursor: pointer;
+    /background-color: red;/
+}
+
+
+footer .par_last
+{
+    /*background-color: red;    */
+    /*width: 10%;
+    position: relative;
+    top: -45%;
+    left: 46.5%;
+    font-family: 'Oswald',sans-serif;
+    font-weight: 600;*/
+     width: 50%;
+    position: relative;
+    top: -45%;
+    left: 35%;
+    font-family: 'Oswald',sans-serif;
+    font-weight: 600;
+}
+footer
+{
+    /*background-color:#8D72E1;*/
+    background-color: #E0144C;
+    height: 30%;
+
+}
+
+footer div .greetings
+{
+	text-align: center;
+	position: relative;
+	left: -23%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
